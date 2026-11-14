@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-11-14T09:11:51Z",
+  "updated": "2026-11-14T09:23:30Z",
   "apps": [
     {
       "id": "ru.abvpn.app",
@@ -114,6 +114,30 @@
         "tablet"
       ],
       "versions": [
+        {
+          "code": 110,
+          "name": "1.1.0",
+          "date": "2026-11-14",
+          "minSdk": 26,
+          "notes": "Полностью автономный: каталог и шрифт встроены, работает без интернета. Установка из файла — себе и на ТВ. Плашка о новой версии магазина, автообновление по Wi‑Fi включено.",
+          "builds": [
+            {
+              "devices": [
+                "phone",
+                "tablet"
+              ],
+              "abis": [
+                "arm64-v8a",
+                "armeabi-v7a",
+                "x86",
+                "x86_64"
+              ],
+              "url": "https://github.com/allexbelieveme/ab-store/releases/download/ru.ab.store-110/ab.Store-1.1.0.apk",
+              "size": 1452784,
+              "sha256": "51d205ed6286292a7fcfc4b09b53200c5ec6aaa32ae22251f6c486786a29080a"
+            }
+          ]
+        },
         {
           "code": 100,
           "name": "1.0.0",
