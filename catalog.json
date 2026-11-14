@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-11-14T09:10:23Z",
+  "updated": "2026-11-14T09:10:39Z",
   "apps": [
     {
       "id": "ru.abvpn.app",
@@ -34,6 +34,36 @@
               "url": "https://github.com/allexbelieveme/ab-store/releases/download/ru.abvpn.app-121/ab.VPN-1.2.1.apk",
               "size": 75384721,
               "sha256": "d13f44341d4ae2961a81fbf5590716a25105d77293be47a95ffd7eebf16a4f7a"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ru.myiptv.tv",
+      "name": "ab.TV",
+      "mark": "TV",
+      "tagline": "IPTV-плеер с телепрограммой и архивом",
+      "description": "",
+      "devices": [
+        "tv"
+      ],
+      "versions": [
+        {
+          "code": 38,
+          "name": "1.23",
+          "date": "2026-11-14",
+          "minSdk": 21,
+          "notes": "Первая публикация в ab.Store.",
+          "builds": [
+            {
+              "devices": [
+                "tv"
+              ],
+              "abis": [],
+              "url": "https://github.com/allexbelieveme/ab-store/releases/download/ru.myiptv.tv-38/ab.TV-1.23.apk",
+              "size": 485250,
+              "sha256": "a3c3cbab0b4d6c301667324c44b9b3350ef4315dd6a21716e3e1f862c616b854"
             }
           ]
         }
