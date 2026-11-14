@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-11-14T09:10:39Z",
+  "updated": "2026-11-14T09:11:36Z",
   "apps": [
     {
       "id": "ru.abvpn.app",
@@ -64,6 +64,40 @@
               "url": "https://github.com/allexbelieveme/ab-store/releases/download/ru.myiptv.tv-38/ab.TV-1.23.apk",
               "size": 485250,
               "sha256": "a3c3cbab0b4d6c301667324c44b9b3350ef4315dd6a21716e3e1f862c616b854"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ru.kinozal.tv",
+      "name": "Кинозал",
+      "mark": "КИНО",
+      "tagline": "Домашний кинозал для телевизора",
+      "description": "",
+      "devices": [
+        "tv"
+      ],
+      "versions": [
+        {
+          "code": 12,
+          "name": "2.5",
+          "date": "2026-11-14",
+          "minSdk": 21,
+          "notes": "Первая публикация в ab.Store.",
+          "builds": [
+            {
+              "devices": [
+                "tv"
+              ],
+              "abis": [
+                "arm64-v8a",
+                "armeabi-v7a",
+                "x86"
+              ],
+              "url": "https://github.com/allexbelieveme/ab-store/releases/download/ru.kinozal.tv-12/kinozal-2.5.apk",
+              "size": 69419692,
+              "sha256": "fd79e8fee76f897db1592efbfc1aa0c1beb504aff5fb1d0f5233e5470380964f"
             }
           ]
         }
