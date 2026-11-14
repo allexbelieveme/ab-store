@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-11-14T09:56:31Z",
+  "updated": "2026-11-14T10:07:44Z",
   "apps": [
     {
       "id": "ru.abvpn.app",
@@ -120,6 +120,33 @@
         "tablet"
       ],
       "versions": [
+        {
+          "code": 120,
+          "name": "1.2.0",
+          "date": "2026-11-14",
+          "minSdk": 26,
+          "notes": "Обновления сначала с GitVerse, запасной — GitHub (ab.VPN — только GitHub). Обрыв загрузки докачивается с места обрыва.",
+          "builds": [
+            {
+              "devices": [
+                "phone",
+                "tablet"
+              ],
+              "abis": [
+                "arm64-v8a",
+                "armeabi-v7a",
+                "x86",
+                "x86_64"
+              ],
+              "url": "https://gitverse.ru/api/attachments/e97ff9b2-8d34-4137-b7d7-a782297c43f4",
+              "size": 1469560,
+              "sha256": "0c7d3692315f23e0e43efc699e2b6722588399330767706295dde22c5dd58574",
+              "mirrors": [
+                "https://github.com/allexbelieveme/ab-store/releases/download/ru.ab.store-120/ab.Store-1.2.0.apk"
+              ]
+            }
+          ]
+        },
         {
           "code": 110,
           "name": "1.1.0",
