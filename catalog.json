@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-11-14T10:07:44Z",
+  "updated": "2026-11-14T10:15:58Z",
   "apps": [
     {
       "id": "ru.abvpn.app",
@@ -49,6 +49,27 @@
         "tv"
       ],
       "versions": [
+        {
+          "code": 39,
+          "name": "1.24",
+          "date": "2026-11-14",
+          "minSdk": 21,
+          "notes": "Обновления теперь сначала с GitVerse, запасной — GitHub.",
+          "builds": [
+            {
+              "devices": [
+                "tv"
+              ],
+              "abis": [],
+              "url": "https://gitverse.ru/api/attachments/386b950a-4a5f-4505-9f23-794986dcbd62",
+              "size": 485256,
+              "sha256": "f5a57a96b260ab87eb6528e90cc3c9eab3e3a2d69e2999e2dfbb45f69d7df52a",
+              "mirrors": [
+                "https://github.com/allexbelieveme/ab-store/releases/download/ru.myiptv.tv-39/ab.TV-1.24.apk"
+              ]
+            }
+          ]
+        },
         {
           "code": 38,
           "name": "1.23",
