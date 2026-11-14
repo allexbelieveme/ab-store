@@ -1,0 +1,43 @@
+{
+  "schema": 1,
+  "updated": "2026-11-14T09:10:23Z",
+  "apps": [
+    {
+      "id": "ru.abvpn.app",
+      "name": "ab.VPN",
+      "mark": "VPN",
+      "tagline": "VPN на VLESS / Reality: sing-box и Xray",
+      "description": "",
+      "devices": [
+        "phone",
+        "tablet"
+      ],
+      "versions": [
+        {
+          "code": 121,
+          "name": "1.2.1",
+          "date": "2026-11-14",
+          "minSdk": 26,
+          "notes": "Первая публикация в ab.Store.",
+          "builds": [
+            {
+              "devices": [
+                "phone",
+                "tablet"
+              ],
+              "abis": [
+                "arm64-v8a",
+                "armeabi-v7a",
+                "x86",
+                "x86_64"
+              ],
+              "url": "https://github.com/allexbelieveme/ab-store/releases/download/ru.abvpn.app-121/ab.VPN-1.2.1.apk",
+              "size": 75384721,
+              "sha256": "d13f44341d4ae2961a81fbf5590716a25105d77293be47a95ffd7eebf16a4f7a"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
