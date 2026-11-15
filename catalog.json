@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-11-15T12:52:23Z",
+  "updated": "2026-11-15T13:31:36Z",
   "apps": [
     {
       "id": "ru.abvpn.app",
@@ -153,6 +153,33 @@
         "phone"
       ],
       "versions": [
+        {
+          "code": 14,
+          "name": "2.7",
+          "date": "2026-11-16",
+          "minSdk": 21,
+          "notes": "Обновления из ab.Store теперь ставятся сами, без вопроса «Установить?» — на телефонах и планшетах с Android 12 и новее (кроме Xiaomi: там оболочка всё равно спрашивает). Первая установка из магазина — один раз с подтверждением.",
+          "builds": [
+            {
+              "devices": [
+                "tv",
+                "tablet",
+                "phone"
+              ],
+              "abis": [
+                "arm64-v8a",
+                "armeabi-v7a",
+                "x86"
+              ],
+              "url": "https://gitverse.ru/api/attachments/cb4c7af6-2503-4744-8bcc-6745176ab408",
+              "size": 69421426,
+              "sha256": "6a031b963b240c647166295594a8cbcd6bbbb3ae22d41dc1865e77596c25ccbd",
+              "mirrors": [
+                "https://github.com/allexbelieveme/ab-store/releases/download/ru.kinozal.tv-14/kinozal-2.7.apk"
+              ]
+            }
+          ]
+        },
         {
           "code": 13,
           "name": "2.6",
