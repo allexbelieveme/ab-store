@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-11-15T07:39:19Z",
+  "updated": "2026-11-15T08:53:14Z",
   "apps": [
     {
       "id": "ru.abvpn.app",
@@ -13,6 +13,30 @@
         "tablet"
       ],
       "versions": [
+        {
+          "code": 124,
+          "name": "1.2.4",
+          "date": "2026-11-15",
+          "minSdk": 26,
+          "notes": "Исправлен режим «Только выбранные приложения»: на Samsung выбранные приложения не работали через VPN. На главном экране виден режим маршрутизации.",
+          "builds": [
+            {
+              "devices": [
+                "phone",
+                "tablet"
+              ],
+              "abis": [
+                "arm64-v8a",
+                "armeabi-v7a",
+                "x86",
+                "x86_64"
+              ],
+              "url": "https://github.com/allexbelieveme/ab-store/releases/download/ru.abvpn.app-124/ab.VPN-1.2.4.apk",
+              "size": 75393105,
+              "sha256": "acd32ffec3e1f13dfc6974bf46bc92999f77dec361f908bbd81b0bb7711e9d31"
+            }
+          ]
+        },
         {
           "code": 123,
           "name": "1.2.3",
