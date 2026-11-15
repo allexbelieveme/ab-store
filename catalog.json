@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-11-14T10:15:58Z",
+  "updated": "2026-11-15T07:39:19Z",
   "apps": [
     {
       "id": "ru.abvpn.app",
@@ -13,6 +13,30 @@
         "tablet"
       ],
       "versions": [
+        {
+          "code": 123,
+          "name": "1.2.3",
+          "date": "2026-11-15",
+          "minSdk": 26,
+          "notes": "Исправлено подключение на Samsung и других устройствах: VPN включался, но интернет не работал. Новый значок.",
+          "builds": [
+            {
+              "devices": [
+                "phone",
+                "tablet"
+              ],
+              "abis": [
+                "arm64-v8a",
+                "armeabi-v7a",
+                "x86",
+                "x86_64"
+              ],
+              "url": "https://github.com/allexbelieveme/ab-store/releases/download/ru.abvpn.app-123/ab.VPN-1.2.3.apk",
+              "size": 75391341,
+              "sha256": "e9981dc99b3bb6e4945368e80193b3f275d71bf4d17d24f2f08e14ee2a151210"
+            }
+          ]
+        },
         {
           "code": 121,
           "name": "1.2.1",
