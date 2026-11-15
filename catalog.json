@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-11-15T12:30:43Z",
+  "updated": "2026-11-15T12:52:23Z",
   "apps": [
     {
       "id": "ru.abvpn.app",
@@ -215,9 +215,38 @@
       "description": "",
       "devices": [
         "phone",
-        "tablet"
+        "tablet",
+        "tv"
       ],
       "versions": [
+        {
+          "code": 130,
+          "name": "1.3.0",
+          "date": "2026-11-15",
+          "minSdk": 26,
+          "notes": "Магазин работает и на телевизорах и приставках: значок в меню Android TV, управление пультом — выбранный пункт обведён коралловой рамкой. Кинозал теперь одно приложение для ТВ, планшета и телефона.",
+          "builds": [
+            {
+              "devices": [
+                "phone",
+                "tablet",
+                "tv"
+              ],
+              "abis": [
+                "arm64-v8a",
+                "armeabi-v7a",
+                "x86",
+                "x86_64"
+              ],
+              "url": "https://gitverse.ru/api/attachments/5f79892b-7e39-4bdc-bf4b-4e066d33678f",
+              "size": 1470632,
+              "sha256": "76d08f9192891a86bf9f7aab982c3b632d837ef08dfd5bce15718d0c091bddcd",
+              "mirrors": [
+                "https://github.com/allexbelieveme/ab-store/releases/download/ru.ab.store-130/ab.Store-1.3.0.apk"
+              ]
+            }
+          ]
+        },
         {
           "code": 120,
           "name": "1.2.0",
