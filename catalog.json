@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-11-16T07:32:06Z",
+  "updated": "2026-11-16T07:33:44Z",
   "apps": [
     {
       "id": "ru.abvpn.app",
@@ -174,6 +174,30 @@
         "phone"
       ],
       "versions": [
+        {
+          "code": 21,
+          "name": "3.4",
+          "date": "2026-11-16",
+          "minSdk": 21,
+          "notes": "Запуск без мельканий: на телефоне экран больше не поворачивается при старте, сразу идёт праздничная заставка своими шрифтами, без значка в белом круге.",
+          "builds": [
+            {
+              "devices": [
+                "tv",
+                "tablet",
+                "phone"
+              ],
+              "abis": [
+                "arm64-v8a",
+                "armeabi-v7a",
+                "x86"
+              ],
+              "url": "https://github.com/allexbelieveme/ab-store/releases/download/ru.kinozal.tv-21/kinozal-3.4.apk",
+              "size": 69615855,
+              "sha256": "0f8efe6d8fabe170e7553acda0bb9f3c789c7f9f57a8572702facd08115ea625"
+            }
+          ]
+        },
         {
           "code": 20,
           "name": "3.3",
