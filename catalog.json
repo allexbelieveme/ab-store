@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-11-15T13:31:36Z",
+  "updated": "2026-11-16T04:28:13Z",
   "apps": [
     {
       "id": "ru.abvpn.app",
@@ -153,6 +153,33 @@
         "phone"
       ],
       "versions": [
+        {
+          "code": 15,
+          "name": "2.8",
+          "date": "2026-11-16",
+          "minSdk": 21,
+          "notes": "ТВ-каналы: «Советская классика» и «Ёлки» идут по кругу, как настоящий телевизор — на всех устройствах одно и то же в одну секунду. ◀ ▶ на пульте (или кнопки на планшете) — переключить канал. Пока компьютер выключен, каналы стоят на месте и потом продолжают с той же секунды.",
+          "builds": [
+            {
+              "devices": [
+                "tv",
+                "tablet",
+                "phone"
+              ],
+              "abis": [
+                "arm64-v8a",
+                "armeabi-v7a",
+                "x86"
+              ],
+              "url": "https://gitverse.ru/api/attachments/c65443f1-d8e8-4277-94a8-a93fba575a87",
+              "size": 69424474,
+              "sha256": "f79b45c1da9b7e2785a7bc6d7dd1aee3981369b798ee14a9df8a877d2981fb39",
+              "mirrors": [
+                "https://github.com/allexbelieveme/ab-store/releases/download/ru.kinozal.tv-15/kinozal-2.8.apk"
+              ]
+            }
+          ]
+        },
         {
           "code": 14,
           "name": "2.7",
