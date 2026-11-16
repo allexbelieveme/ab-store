@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-11-16T04:28:13Z",
+  "updated": "2026-11-16T04:59:13Z",
   "apps": [
     {
       "id": "ru.abvpn.app",
@@ -153,6 +153,33 @@
         "phone"
       ],
       "versions": [
+        {
+          "code": 16,
+          "name": "2.9",
+          "date": "2026-11-16",
+          "minSdk": 21,
+          "notes": "ТВ-каналы через интернет: канал больше не перезапускает загрузку по кругу, большие AVI-фильмы с середины открываются быстрее. Выход из канала и из фильма — без зависания.",
+          "builds": [
+            {
+              "devices": [
+                "tv",
+                "tablet",
+                "phone"
+              ],
+              "abis": [
+                "arm64-v8a",
+                "armeabi-v7a",
+                "x86"
+              ],
+              "url": "https://gitverse.ru/api/attachments/894f0f52-fb6a-4e13-aab3-4674371d1b79",
+              "size": 69425168,
+              "sha256": "28b5a7ca98ec85645170c7b78ad467b9f850aa647e7e5c3eede418147616b9ec",
+              "mirrors": [
+                "https://github.com/allexbelieveme/ab-store/releases/download/ru.kinozal.tv-16/kinozal-2.9.apk"
+              ]
+            }
+          ]
+        },
         {
           "code": 15,
           "name": "2.8",
