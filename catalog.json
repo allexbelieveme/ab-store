@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-11-16T07:51:08Z",
+  "updated": "2026-11-16T08:09:46Z",
   "apps": [
     {
       "id": "ru.abvpn.app",
@@ -91,12 +91,37 @@
       "id": "ru.myiptv.tv",
       "name": "ab.TV",
       "mark": "TV",
-      "tagline": "IPTV-плеер с телепрограммой и архивом",
+      "tagline": "IPTV-плеер с телепрограммой и архивом — для ТВ, планшета и телефона",
       "description": "",
       "devices": [
-        "tv"
+        "tv",
+        "tablet",
+        "phone"
       ],
       "versions": [
+        {
+          "code": 42,
+          "name": "1.27",
+          "date": "2026-11-16",
+          "minSdk": 21,
+          "notes": "Теперь и для телефонов: вертикальная и горизонтальная раскладка, меню снизу, плеер с программой канала под видео. На ТВ без изменений.",
+          "builds": [
+            {
+              "devices": [
+                "tv",
+                "tablet",
+                "phone"
+              ],
+              "abis": [],
+              "url": "https://github.com/allexbelieveme/ab-store/releases/download/ru.myiptv.tv-42/ab.TV-1.27.apk",
+              "size": 494305,
+              "sha256": "413dfc1487d72f1f294235f95a913a788a7fd072826d36d3c6bcd7aa34f610aa",
+              "mirrors": [
+                "https://gitverse.ru/api/attachments/87e3948d-341b-4785-b7fb-f465342aff0b"
+              ]
+            }
+          ]
+        },
         {
           "code": 41,
           "name": "1.26",
