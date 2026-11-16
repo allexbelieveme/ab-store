@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <!-- сайт открывается по ссылке, поисковикам его не показываем -->
+  <meta name="robots" content="noindex, nofollow, noarchive">
+  <meta name="color-scheme" content="dark light">
+  <meta name="theme-color" content="#0F1115">
+  <title>ab. — приложения</title>
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="app.css">
+  <script>
+    // тема до отрисовки — чтобы не мигало: сохранённая или как в системе
+    (function () {
+      var t = localStorage.getItem('ab.theme');
+      if (!t) t = matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
+      document.documentElement.dataset.theme = t;
+    })();
+  </script>
+</head>
+<body>
+  <header class="top">
+    <a class="logo" href="#/" aria-label="ab. — на главную">ab<span>.</span></a>
+    <nav class="nav">
+      <a href="#/" data-nav="apps">Приложения</a>
+      <a href="#/news" data-nav="news">Что нового</a>
+      <a href="#/install" data-nav="install">Установка</a>
+    </nav>
+    <button class="theme" id="theme" type="button" aria-label="Светлая или тёмная тема">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path class="sun" d="M12 4V2M12 22v-2M4 12H2M22 12h-2M5.6 5.6 4.2 4.2M19.8 19.8l-1.4-1.4M5.6 18.4l-1.4 1.4M19.8 4.2l-1.4 1.4M12 7a5 5 0 1 0 0 10 5 5 0 0 0 0-10Z"/><path class="moon" d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5Z"/></svg>
+    </button>
+  </header>
+
+  <main id="view" aria-live="polite">
+    <p class="muted loading">Загружаем приложения…</p>
+  </main>
+
+  <footer class="foot">
+    <span id="where"></span>
+    <span id="updated"></span>
+  </footer>
+
+  <dialog id="qr" class="qr-dialog">
+    <div class="qr-box"></div>
+    <p class="qr-cap"></p>
+    <form method="dialog"><button class="btn ghost">Закрыть</button></form>
+  </dialog>
+
+  <script src="vendor/qrcode.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
