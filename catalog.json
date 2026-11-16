@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-11-16T12:42:47Z",
+  "updated": "2026-11-16T12:47:45Z",
   "apps": [
     {
       "id": "ru.abvpn.app",
@@ -222,6 +222,33 @@
         "phone"
       ],
       "versions": [
+        {
+          "code": 24,
+          "name": "3.6",
+          "date": "2026-11-16",
+          "minSdk": 21,
+          "notes": "ТВ-каналы со своими значками в углу экрана: ёлочка у «Советской классики», золотая Ё у «Ёлок». Полоса просмотра — синяя, по ней катится снежный ком и растёт к концу фильма.",
+          "builds": [
+            {
+              "devices": [
+                "tv",
+                "tablet",
+                "phone"
+              ],
+              "abis": [
+                "arm64-v8a",
+                "armeabi-v7a",
+                "x86"
+              ],
+              "url": "https://github.com/allexbelieveme/ab-store/releases/download/ru.kinozal.tv-24/kinozal-3.6.apk",
+              "size": 64916097,
+              "sha256": "c59b6016c0f3eec451c8feb78620316a53608a337d1d853c42ef69fc46968110",
+              "mirrors": [
+                "https://gitverse.ru/alexbelieveme/ab-store/releases/download/ru.kinozal.tv-24/kinozal-3.6.apk"
+              ]
+            }
+          ]
+        },
         {
           "code": 22,
           "name": "3.5",
