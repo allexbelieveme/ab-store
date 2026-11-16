@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-11-16T07:28:18Z",
+  "updated": "2026-11-16T07:32:06Z",
   "apps": [
     {
       "id": "ru.abvpn.app",
@@ -179,7 +179,7 @@
           "name": "3.3",
           "date": "2026-11-16",
           "minSdk": 21,
-          "notes": "Подписано собственным ключом Кинозала (раньше — отладочным ключом Android). Ставится поверх, настройки сохраняются.",
+          "notes": "Запуск без мельканий: на телефоне экран больше не поворачивается при старте, сразу идёт праздничная заставка своими шрифтами.",
           "builds": [
             {
               "devices": [
@@ -193,11 +193,8 @@
                 "x86"
               ],
               "url": "https://github.com/allexbelieveme/ab-store/releases/download/ru.kinozal.tv-20/kinozal-3.3.apk",
-              "size": 69434795,
-              "sha256": "8be42c85fc6433ad9aac0d1b19c14a8392fff6ce2384bf88080c39ee92b05c5a",
-              "mirrors": [
-                "https://gitverse.ru/api/attachments/469d9075-b949-4001-9138-693dca4007e3"
-              ]
+              "size": 69615855,
+              "sha256": "96a6a1859fe13e5804d556c62fc8f31d4bb1f5e6a730dcd3e24af56c63626c29"
             }
           ]
         },
