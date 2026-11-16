@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-11-16T12:41:42Z",
+  "updated": "2026-11-16T12:42:47Z",
   "apps": [
     {
       "id": "ru.abvpn.app",
@@ -531,6 +531,34 @@
         "tv"
       ],
       "versions": [
+        {
+          "code": 140,
+          "name": "1.4.0",
+          "date": "2026-11-16",
+          "minSdk": 26,
+          "notes": "Дома обновления идут прямо с компьютера (быстро, по Wi‑Fi); вне дома — GitHub, запасной GitVerse. Компьютер находится сам, адрес можно вписать в Настройках.",
+          "builds": [
+            {
+              "devices": [
+                "phone",
+                "tablet",
+                "tv"
+              ],
+              "abis": [
+                "arm64-v8a",
+                "armeabi-v7a",
+                "x86",
+                "x86_64"
+              ],
+              "url": "https://github.com/allexbelieveme/ab-store/releases/download/ru.ab.store-140/ab.Store-1.4.0.apk",
+              "size": 1473448,
+              "sha256": "1fd6fbcc2250472c006ce9f6393dd455e3473b269aaedeae276a21456c90e8ce",
+              "mirrors": [
+                "https://gitverse.ru/alexbelieveme/ab-store/releases/download/ru.ab.store-140/ab.Store-1.4.0.apk"
+              ]
+            }
+          ]
+        },
         {
           "code": 132,
           "name": "1.3.2",
