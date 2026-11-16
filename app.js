@@ -250,8 +250,15 @@
 
   window.addEventListener('hashchange', route);
 
-  fetch('catalog.json?t=' + Math.floor(Date.now() / 60000), { cache: 'no-store' })
-    .then(function (r) { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+  // каталог лежит рядом с сайтом (дома на ПК и allexbelieveme.github.io/ab-store/),
+  // а короткий адрес allexbelieveme.github.io берёт его из /ab-store/ — это тот же сайт GitHub Pages
+  function getCatalog(urls) {
+    var t = Math.floor(Date.now() / 60000);
+    return fetch(urls[0] + '?t=' + t, { cache: 'no-store' })
+      .then(function (r) { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+      .catch(function (e) { if (urls.length > 1) return getCatalog(urls.slice(1)); throw e; });
+  }
+  getCatalog(['catalog.json', '/ab-store/catalog.json'])
     .then(function (c) {
       catalog = c;
       document.getElementById('updated').textContent = c.updated ? 'Каталог обновлён ' + fmtDate(c.updated) : '';
