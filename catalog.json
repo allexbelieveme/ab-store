@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-11-16T06:36:14Z",
+  "updated": "2026-11-16T06:47:08Z",
   "apps": [
     {
       "id": "ru.abvpn.app",
@@ -109,11 +109,11 @@
                 "tv"
               ],
               "abis": [],
-              "url": "https://gitverse.ru/api/attachments/386b950a-4a5f-4505-9f23-794986dcbd62",
+              "url": "https://github.com/allexbelieveme/ab-store/releases/download/ru.myiptv.tv-39/ab.TV-1.24.apk",
               "size": 485256,
               "sha256": "f5a57a96b260ab87eb6528e90cc3c9eab3e3a2d69e2999e2dfbb45f69d7df52a",
               "mirrors": [
-                "https://github.com/allexbelieveme/ab-store/releases/download/ru.myiptv.tv-39/ab.TV-1.24.apk"
+                "https://gitverse.ru/api/attachments/386b950a-4a5f-4505-9f23-794986dcbd62"
               ]
             }
           ]
@@ -130,11 +130,11 @@
                 "tv"
               ],
               "abis": [],
-              "url": "https://gitverse.ru/api/attachments/05a431ba-72f5-4235-a7c4-e2114034ecc6",
+              "url": "https://github.com/allexbelieveme/ab-store/releases/download/ru.myiptv.tv-38/ab.TV-1.23.apk",
               "size": 485250,
               "sha256": "a3c3cbab0b4d6c301667324c44b9b3350ef4315dd6a21716e3e1f862c616b854",
               "mirrors": [
-                "https://github.com/allexbelieveme/ab-store/releases/download/ru.myiptv.tv-38/ab.TV-1.23.apk"
+                "https://gitverse.ru/api/attachments/05a431ba-72f5-4235-a7c4-e2114034ecc6"
               ]
             }
           ]
@@ -171,11 +171,11 @@
                 "armeabi-v7a",
                 "x86"
               ],
-              "url": "https://gitverse.ru/api/attachments/7682742c-4727-4a0f-95de-f6e62ecec32c",
+              "url": "https://github.com/allexbelieveme/ab-store/releases/download/ru.kinozal.tv-17/kinozal-3.0.apk",
               "size": 69426981,
               "sha256": "4197c2c34ed6ccb86e6eb2cf9f60bac0f64096d3adfa61cbb7bb8a6d06730ec6",
               "mirrors": [
-                "https://github.com/allexbelieveme/ab-store/releases/download/ru.kinozal.tv-17/kinozal-3.0.apk"
+                "https://gitverse.ru/api/attachments/7682742c-4727-4a0f-95de-f6e62ecec32c"
               ]
             }
           ]
@@ -198,11 +198,11 @@
                 "armeabi-v7a",
                 "x86"
               ],
-              "url": "https://gitverse.ru/api/attachments/894f0f52-fb6a-4e13-aab3-4674371d1b79",
+              "url": "https://github.com/allexbelieveme/ab-store/releases/download/ru.kinozal.tv-16/kinozal-2.9.apk",
               "size": 69425168,
               "sha256": "28b5a7ca98ec85645170c7b78ad467b9f850aa647e7e5c3eede418147616b9ec",
               "mirrors": [
-                "https://github.com/allexbelieveme/ab-store/releases/download/ru.kinozal.tv-16/kinozal-2.9.apk"
+                "https://gitverse.ru/api/attachments/894f0f52-fb6a-4e13-aab3-4674371d1b79"
               ]
             }
           ]
@@ -225,11 +225,11 @@
                 "armeabi-v7a",
                 "x86"
               ],
-              "url": "https://gitverse.ru/api/attachments/c65443f1-d8e8-4277-94a8-a93fba575a87",
+              "url": "https://github.com/allexbelieveme/ab-store/releases/download/ru.kinozal.tv-15/kinozal-2.8.apk",
               "size": 69424474,
               "sha256": "f79b45c1da9b7e2785a7bc6d7dd1aee3981369b798ee14a9df8a877d2981fb39",
               "mirrors": [
-                "https://github.com/allexbelieveme/ab-store/releases/download/ru.kinozal.tv-15/kinozal-2.8.apk"
+                "https://gitverse.ru/api/attachments/c65443f1-d8e8-4277-94a8-a93fba575a87"
               ]
             }
           ]
@@ -252,11 +252,11 @@
                 "armeabi-v7a",
                 "x86"
               ],
-              "url": "https://gitverse.ru/api/attachments/cb4c7af6-2503-4744-8bcc-6745176ab408",
+              "url": "https://github.com/allexbelieveme/ab-store/releases/download/ru.kinozal.tv-14/kinozal-2.7.apk",
               "size": 69421426,
               "sha256": "6a031b963b240c647166295594a8cbcd6bbbb3ae22d41dc1865e77596c25ccbd",
               "mirrors": [
-                "https://github.com/allexbelieveme/ab-store/releases/download/ru.kinozal.tv-14/kinozal-2.7.apk"
+                "https://gitverse.ru/api/attachments/cb4c7af6-2503-4744-8bcc-6745176ab408"
               ]
             }
           ]
@@ -279,11 +279,11 @@
                 "armeabi-v7a",
                 "x86"
               ],
-              "url": "https://gitverse.ru/api/attachments/7cb00d11-851c-4a1c-b6ac-928c9e4789b1",
+              "url": "https://github.com/allexbelieveme/ab-store/releases/download/ru.kinozal.tv-13/kinozal-2.6.apk",
               "size": 69421161,
               "sha256": "149e0fc67064390a9b4a08592c2c6f4a8dfd9b4189b17c437c744636a61d7574",
               "mirrors": [
-                "https://github.com/allexbelieveme/ab-store/releases/download/ru.kinozal.tv-13/kinozal-2.6.apk"
+                "https://gitverse.ru/api/attachments/7cb00d11-851c-4a1c-b6ac-928c9e4789b1"
               ]
             }
           ]
@@ -304,11 +304,11 @@
                 "armeabi-v7a",
                 "x86"
               ],
-              "url": "https://gitverse.ru/api/attachments/274c922e-d1de-49bb-a0cf-9f2c71cf2c42",
+              "url": "https://github.com/allexbelieveme/ab-store/releases/download/ru.kinozal.tv-12/kinozal-2.5.apk",
               "size": 69419692,
               "sha256": "fd79e8fee76f897db1592efbfc1aa0c1beb504aff5fb1d0f5233e5470380964f",
               "mirrors": [
-                "https://github.com/allexbelieveme/ab-store/releases/download/ru.kinozal.tv-12/kinozal-2.5.apk"
+                "https://gitverse.ru/api/attachments/274c922e-d1de-49bb-a0cf-9f2c71cf2c42"
               ]
             }
           ]
@@ -346,11 +346,11 @@
                 "x86",
                 "x86_64"
               ],
-              "url": "https://gitverse.ru/api/attachments/1ea1180a-825d-4672-8da7-166af7f2f6dd",
+              "url": "https://github.com/allexbelieveme/ab-store/releases/download/ru.ab.store-131/ab.Store-1.3.1.apk",
               "size": 1471868,
               "sha256": "e53e333736c1f235c4b93e13d632d619e9d83b2d443216ab4bfd9f84cff85ee9",
               "mirrors": [
-                "https://github.com/allexbelieveme/ab-store/releases/download/ru.ab.store-131/ab.Store-1.3.1.apk"
+                "https://gitverse.ru/api/attachments/1ea1180a-825d-4672-8da7-166af7f2f6dd"
               ]
             }
           ]
@@ -374,11 +374,11 @@
                 "x86",
                 "x86_64"
               ],
-              "url": "https://gitverse.ru/api/attachments/5f79892b-7e39-4bdc-bf4b-4e066d33678f",
+              "url": "https://github.com/allexbelieveme/ab-store/releases/download/ru.ab.store-130/ab.Store-1.3.0.apk",
               "size": 1470632,
               "sha256": "76d08f9192891a86bf9f7aab982c3b632d837ef08dfd5bce15718d0c091bddcd",
               "mirrors": [
-                "https://github.com/allexbelieveme/ab-store/releases/download/ru.ab.store-130/ab.Store-1.3.0.apk"
+                "https://gitverse.ru/api/attachments/5f79892b-7e39-4bdc-bf4b-4e066d33678f"
               ]
             }
           ]
@@ -401,11 +401,11 @@
                 "x86",
                 "x86_64"
               ],
-              "url": "https://gitverse.ru/api/attachments/e97ff9b2-8d34-4137-b7d7-a782297c43f4",
+              "url": "https://github.com/allexbelieveme/ab-store/releases/download/ru.ab.store-120/ab.Store-1.2.0.apk",
               "size": 1469560,
               "sha256": "0c7d3692315f23e0e43efc699e2b6722588399330767706295dde22c5dd58574",
               "mirrors": [
-                "https://github.com/allexbelieveme/ab-store/releases/download/ru.ab.store-120/ab.Store-1.2.0.apk"
+                "https://gitverse.ru/api/attachments/e97ff9b2-8d34-4137-b7d7-a782297c43f4"
               ]
             }
           ]
@@ -428,11 +428,11 @@
                 "x86",
                 "x86_64"
               ],
-              "url": "https://gitverse.ru/api/attachments/530cfba3-c1b3-4f8c-aa77-beedf9f1561e",
+              "url": "https://github.com/allexbelieveme/ab-store/releases/download/ru.ab.store-110/ab.Store-1.1.0.apk",
               "size": 1452784,
               "sha256": "51d205ed6286292a7fcfc4b09b53200c5ec6aaa32ae22251f6c486786a29080a",
               "mirrors": [
-                "https://github.com/allexbelieveme/ab-store/releases/download/ru.ab.store-110/ab.Store-1.1.0.apk"
+                "https://gitverse.ru/api/attachments/530cfba3-c1b3-4f8c-aa77-beedf9f1561e"
               ]
             }
           ]
@@ -455,11 +455,11 @@
                 "x86",
                 "x86_64"
               ],
-              "url": "https://gitverse.ru/api/attachments/3ce3995f-a624-41fb-8e24-1b1484e5c2d8",
+              "url": "https://github.com/allexbelieveme/ab-store/releases/download/ru.ab.store-100/ab.Store-1.0.0.apk",
               "size": 1347651,
               "sha256": "1188a59d556635759876fae37fbe9ce67893781eee68be7697bf2575c93c3d76",
               "mirrors": [
-                "https://github.com/allexbelieveme/ab-store/releases/download/ru.ab.store-100/ab.Store-1.0.0.apk"
+                "https://gitverse.ru/api/attachments/3ce3995f-a624-41fb-8e24-1b1484e5c2d8"
               ]
             }
           ]
