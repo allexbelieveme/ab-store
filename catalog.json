@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-11-16T07:33:44Z",
+  "updated": "2026-11-16T07:51:08Z",
   "apps": [
     {
       "id": "ru.abvpn.app",
@@ -174,6 +174,33 @@
         "phone"
       ],
       "versions": [
+        {
+          "code": 22,
+          "name": "3.5",
+          "date": "2026-11-16",
+          "minSdk": 21,
+          "notes": "Релизная сборка (не отладочная) — Play Защита больше не считает кинозал подозрительным. Телефон открывается сразу вертикально, без поворота.",
+          "builds": [
+            {
+              "devices": [
+                "tv",
+                "tablet",
+                "phone"
+              ],
+              "abis": [
+                "arm64-v8a",
+                "armeabi-v7a",
+                "x86"
+              ],
+              "url": "https://github.com/allexbelieveme/ab-store/releases/download/ru.kinozal.tv-22/kinozal-3.5.apk",
+              "size": 64916097,
+              "sha256": "ba70caa514fb522e5d9979f859cccde1e882a1721e250e48c5979d2c0cda650a",
+              "mirrors": [
+                "https://gitverse.ru/api/attachments/edbc4d47-b477-4e7c-bff1-84065c2804b2"
+              ]
+            }
+          ]
+        },
         {
           "code": 21,
           "name": "3.4",
