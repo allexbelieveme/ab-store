@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-11-16T04:59:13Z",
+  "updated": "2026-11-16T05:57:50Z",
   "apps": [
     {
       "id": "ru.abvpn.app",
@@ -153,6 +153,33 @@
         "phone"
       ],
       "versions": [
+        {
+          "code": 17,
+          "name": "3.0",
+          "date": "2026-11-16",
+          "minSdk": 21,
+          "notes": "ТВ-каналы через интернет — качество «Авто»: картинка подстраивается под скорость связи, как в YouTube, без зависаний. Дома по Wi-Fi — как прежде, оригинал. Переключить: Настройки → «ТВ-каналы через интернет».",
+          "builds": [
+            {
+              "devices": [
+                "tv",
+                "tablet",
+                "phone"
+              ],
+              "abis": [
+                "arm64-v8a",
+                "armeabi-v7a",
+                "x86"
+              ],
+              "url": "https://gitverse.ru/api/attachments/7682742c-4727-4a0f-95de-f6e62ecec32c",
+              "size": 69426981,
+              "sha256": "4197c2c34ed6ccb86e6eb2cf9f60bac0f64096d3adfa61cbb7bb8a6d06730ec6",
+              "mirrors": [
+                "https://github.com/allexbelieveme/ab-store/releases/download/ru.kinozal.tv-17/kinozal-3.0.apk"
+              ]
+            }
+          ]
+        },
         {
           "code": 16,
           "name": "2.9",
