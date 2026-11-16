@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-11-16T08:25:37Z",
+  "updated": "2026-11-16T12:41:42Z",
   "apps": [
     {
       "id": "ru.abvpn.app",
@@ -269,7 +269,10 @@
               ],
               "url": "https://github.com/allexbelieveme/ab-store/releases/download/ru.kinozal.tv-21/kinozal-3.4.apk",
               "size": 69615855,
-              "sha256": "0f8efe6d8fabe170e7553acda0bb9f3c789c7f9f57a8572702facd08115ea625"
+              "sha256": "0f8efe6d8fabe170e7553acda0bb9f3c789c7f9f57a8572702facd08115ea625",
+              "mirrors": [
+                "https://gitverse.ru/alexbelieveme/ab-store/releases/download/ru.kinozal.tv-21/kinozal-3.4.apk"
+              ]
             }
           ]
         },
@@ -293,7 +296,10 @@
               ],
               "url": "https://github.com/allexbelieveme/ab-store/releases/download/ru.kinozal.tv-20/kinozal-3.3.apk",
               "size": 69615855,
-              "sha256": "96a6a1859fe13e5804d556c62fc8f31d4bb1f5e6a730dcd3e24af56c63626c29"
+              "sha256": "96a6a1859fe13e5804d556c62fc8f31d4bb1f5e6a730dcd3e24af56c63626c29",
+              "mirrors": [
+                "https://gitverse.ru/alexbelieveme/ab-store/releases/download/ru.kinozal.tv-20/kinozal-3.3.apk"
+              ]
             }
           ]
         },
