@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-11-16T08:09:46Z",
+  "updated": "2026-11-16T08:25:37Z",
   "apps": [
     {
       "id": "ru.abvpn.app",
@@ -99,6 +99,29 @@
         "phone"
       ],
       "versions": [
+        {
+          "code": 43,
+          "name": "1.28",
+          "date": "2026-11-16",
+          "minSdk": 21,
+          "notes": "Мелкое исправление проверки обновлений. Появилась версия для Windows.",
+          "builds": [
+            {
+              "devices": [
+                "tv",
+                "tablet",
+                "phone"
+              ],
+              "abis": [],
+              "url": "https://github.com/allexbelieveme/ab-store/releases/download/ru.myiptv.tv-43/ab.TV-1.28.apk",
+              "size": 494305,
+              "sha256": "d81fd6ecb876d926abb8400a3ef0b4ba4485b4d53fa211dc0864d7344c584291",
+              "mirrors": [
+                "https://gitverse.ru/api/attachments/76372572-9d94-4b47-a1ba-54ef3eca923d"
+              ]
+            }
+          ]
+        },
         {
           "code": 42,
           "name": "1.27",
