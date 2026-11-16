@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-11-16T06:50:50Z",
+  "updated": "2026-11-16T06:59:36Z",
   "apps": [
     {
       "id": "ru.abvpn.app",
@@ -153,6 +153,33 @@
         "phone"
       ],
       "versions": [
+        {
+          "code": 19,
+          "name": "3.2",
+          "date": "2026-11-16",
+          "minSdk": 21,
+          "notes": "Телефон: настройки крупным шрифтом, удобно нажимать пальцем.",
+          "builds": [
+            {
+              "devices": [
+                "tv",
+                "tablet",
+                "phone"
+              ],
+              "abis": [
+                "arm64-v8a",
+                "armeabi-v7a",
+                "x86"
+              ],
+              "url": "https://github.com/allexbelieveme/ab-store/releases/download/ru.kinozal.tv-19/kinozal-3.2.apk",
+              "size": 69428174,
+              "sha256": "d3091e33a9045b29c894b5c8f64152759c2c94508f4e680aa02ddca101ddcd5f",
+              "mirrors": [
+                "https://gitverse.ru/api/attachments/d1bee2da-6bb7-45d4-9b7e-e419c0bb0801"
+              ]
+            }
+          ]
+        },
         {
           "code": 18,
           "name": "3.1",
