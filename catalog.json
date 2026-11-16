@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-11-16T05:57:50Z",
+  "updated": "2026-11-16T06:36:14Z",
   "apps": [
     {
       "id": "ru.abvpn.app",
@@ -327,6 +327,34 @@
         "tv"
       ],
       "versions": [
+        {
+          "code": 131,
+          "name": "1.3.1",
+          "date": "2026-11-16",
+          "minSdk": 26,
+          "notes": "Быстрее и без ошибок: если GitVerse медленный или оборвал загрузку, магазин сам докачивает с GitHub с того же места.",
+          "builds": [
+            {
+              "devices": [
+                "phone",
+                "tablet",
+                "tv"
+              ],
+              "abis": [
+                "arm64-v8a",
+                "armeabi-v7a",
+                "x86",
+                "x86_64"
+              ],
+              "url": "https://gitverse.ru/api/attachments/1ea1180a-825d-4672-8da7-166af7f2f6dd",
+              "size": 1471868,
+              "sha256": "e53e333736c1f235c4b93e13d632d619e9d83b2d443216ab4bfd9f84cff85ee9",
+              "mirrors": [
+                "https://github.com/allexbelieveme/ab-store/releases/download/ru.ab.store-131/ab.Store-1.3.1.apk"
+              ]
+            }
+          ]
+        },
         {
           "code": 130,
           "name": "1.3.0",
