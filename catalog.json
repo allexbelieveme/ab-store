@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-11-16T06:59:36Z",
+  "updated": "2026-11-16T07:25:14Z",
   "apps": [
     {
       "id": "ru.abvpn.app",
@@ -97,6 +97,27 @@
         "tv"
       ],
       "versions": [
+        {
+          "code": 41,
+          "name": "1.26",
+          "date": "2026-11-16",
+          "minSdk": 21,
+          "notes": "Подписано собственным ключом ab.TV (раньше — отладочным ключом Android). Ставится поверх, настройки сохраняются.",
+          "builds": [
+            {
+              "devices": [
+                "tv"
+              ],
+              "abis": [],
+              "url": "https://github.com/allexbelieveme/ab-store/releases/download/ru.myiptv.tv-41/ab.TV-1.26.apk",
+              "size": 490209,
+              "sha256": "28c27997f92b16abfedc667852db9c730c64b7fdc1a9930b43d6ff4baf033dfe",
+              "mirrors": [
+                "https://gitverse.ru/api/attachments/d965397b-f21c-49a5-9456-534a3b560d71"
+              ]
+            }
+          ]
+        },
         {
           "code": 39,
           "name": "1.24",
