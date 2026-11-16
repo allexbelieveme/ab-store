@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-11-16T06:49:18Z",
+  "updated": "2026-11-16T06:50:50Z",
   "apps": [
     {
       "id": "ru.abvpn.app",
@@ -98,27 +98,6 @@
       ],
       "versions": [
         {
-          "code": 40,
-          "name": "1.25",
-          "date": "2026-11-16",
-          "minSdk": 21,
-          "notes": "Обновления снова сначала с GitHub (быстрее), запасной — GitVerse.",
-          "builds": [
-            {
-              "devices": [
-                "tv"
-              ],
-              "abis": [],
-              "url": "https://github.com/allexbelieveme/ab-store/releases/download/ru.myiptv.tv-40/ab.TV-1.25.apk",
-              "size": 485289,
-              "sha256": "957c729ff2cbde9b5feb1352905f9b0cc1fd51826b5732cf03eb9fe9c799d156",
-              "mirrors": [
-                "https://gitverse.ru/api/attachments/bb114394-1735-4409-806e-b0aba134fc91"
-              ]
-            }
-          ]
-        },
-        {
           "code": 39,
           "name": "1.24",
           "date": "2026-11-14",
@@ -174,6 +153,33 @@
         "phone"
       ],
       "versions": [
+        {
+          "code": 18,
+          "name": "3.1",
+          "date": "2026-11-16",
+          "minSdk": 21,
+          "notes": "Телефон: кнопка меню больше не прячется под гирляндой; меню открывается свайпом вправо с любого места и закрывается свайпом влево; крупный шрифт и прокрутка в меню. В настройках — кнопка «Обновить приложение».",
+          "builds": [
+            {
+              "devices": [
+                "tv",
+                "tablet",
+                "phone"
+              ],
+              "abis": [
+                "arm64-v8a",
+                "armeabi-v7a",
+                "x86"
+              ],
+              "url": "https://github.com/allexbelieveme/ab-store/releases/download/ru.kinozal.tv-18/kinozal-3.1.apk",
+              "size": 69427903,
+              "sha256": "e531bc72fa1a1a9cf1506cc6cf6bcd0b463d57bf807d5af029f533c5c03a6573",
+              "mirrors": [
+                "https://gitverse.ru/api/attachments/535732d3-3b13-4041-85d8-baccdbc7b9d0"
+              ]
+            }
+          ]
+        },
         {
           "code": 17,
           "name": "3.0",
