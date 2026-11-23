@@ -14,6 +14,30 @@
       ],
       "versions": [
         {
+          "code": 125,
+          "name": "1.2.5",
+          "date": "2026-11-23",
+          "minSdk": 26,
+          "notes": "Обновлён номер версии Android. Изменение маршрутизации DNS относится к Windows.",
+          "builds": [
+            {
+              "devices": [
+                "phone",
+                "tablet"
+              ],
+              "abis": [
+                "arm64-v8a",
+                "armeabi-v7a",
+                "x86",
+                "x86_64"
+              ],
+              "url": "https://github.com/allexbelieveme/ab-store/releases/download/ru.abvpn.app-125/ab.VPN-1.2.5.apk",
+              "size": 75393105,
+              "sha256": "a73ff8e2036d3a88f6ab29218eaa3492d8411f7e6904a6f0417da7b86cf15e44"
+            }
+          ]
+        },
+        {
           "code": 124,
           "name": "1.2.4",
           "date": "2026-11-15",
