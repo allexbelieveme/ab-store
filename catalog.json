@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-11-24T12:21:28Z",
+  "updated": "2026-11-24T12:24:28Z",
   "apps": [
     {
       "id": "ru.abvpn.app",
@@ -581,6 +581,30 @@
         "tablet"
       ],
       "versions": [
+        {
+          "code": 101,
+          "name": "1.0.1",
+          "date": "2026-11-24",
+          "minSdk": 26,
+          "notes": "Исправлено отображение списков дисков и процессов в Windows. Проверено подключение Android и виджет на Android 17.",
+          "builds": [
+            {
+              "devices": [
+                "phone",
+                "tablet"
+              ],
+              "abis": [],
+              "url": "https://github.com/allexbelieveme/ab-store/releases/download/ru.ab.monit-101/Monit-1.0.1.apk",
+              "size": 33745,
+              "sha256": "e258bfd2293e770a852dea46c57c33052a36adb59a2c05e99267aca8c4c4e4d2"
+            }
+          ],
+          "windows": {
+            "url": "https://github.com/allexbelieveme/ab-store/releases/download/ru.ab.monit-101/Monit.exe",
+            "size": 39936,
+            "sha256": "12be4866dcc5034270242c1056fbe2ec769c785bf7cffa6633151b27ea9bf116"
+          }
+        },
         {
           "code": 100,
           "name": "1.0.0",
