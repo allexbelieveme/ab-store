@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-11-16T21:54:47Z",
+  "updated": "2026-11-24T12:21:28Z",
   "apps": [
     {
       "id": "ru.abvpn.app",
@@ -567,6 +567,43 @@
               ]
             }
           ]
+        }
+      ]
+    },
+    {
+      "id": "ru.ab.monit",
+      "name": "Monit",
+      "mark": "MON",
+      "tagline": "Мониторинг компьютера",
+      "description": "Загрузка CPU, GPU и памяти, температуры, диски и питание. Адаптивный виджет Android. Приватное подключение к ПК через Tailscale.",
+      "devices": [
+        "phone",
+        "tablet"
+      ],
+      "versions": [
+        {
+          "code": 100,
+          "name": "1.0.0",
+          "date": "2026-11-24",
+          "minSdk": 26,
+          "notes": "Первый выпуск Monit для Android и Windows. Сводка показателей, адаптивный виджет и тихий автозапуск на ПК.",
+          "builds": [
+            {
+              "devices": [
+                "phone",
+                "tablet"
+              ],
+              "abis": [],
+              "url": "https://github.com/allexbelieveme/ab-store/releases/download/ru.ab.monit-100/Monit-1.0.0.apk",
+              "size": 33745,
+              "sha256": "f521a8f132c6c883b0527ca5219e6c6f4246bf2d84559963ded1127e709b293b"
+            }
+          ],
+          "windows": {
+            "url": "https://github.com/allexbelieveme/ab-store/releases/download/ru.ab.monit-100/Monit.exe",
+            "size": 39424,
+            "sha256": "67a5778704049c3901a338af7cb51fde461330d7f68b1753fae9efd1cd190ce6"
+          }
         }
       ]
     },

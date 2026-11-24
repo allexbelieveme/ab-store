@@ -80,6 +80,9 @@
       out += '<a class="btn' + (i && !opts.allPrimary ? ' ghost' : '') + '" href="' + esc(b.url) + '" download>' + ICON_DL + esc(label) +
         (b.size ? ' <span style="font-weight:600;opacity:.75">' + fmtSize(b.size) + '</span>' : '') + '</a>';
     });
+    if (!opts.noExtra && v && v.windows) {
+      out += '<a class="btn ghost" href="' + esc(v.windows.url) + '" download>' + ICON_DL + 'Для Windows</a>';
+    }
     if (!opts.noExtra) (EXTRA[a.id] || []).forEach(function (x) {
       out += '<a class="btn ghost" href="' + esc(x.url) + '">' + ICON_DL + esc(x.label) + '</a>';
     });
@@ -131,10 +134,10 @@
         '<div class="app-tag">' + esc(a.tagline) + '</div></div></div>' +
         '<div class="pills"><span class="pill">' + esc(v ? v.name : '—') + '</span>' +
         (v && isNew(v) ? '<span class="pill new">Новое</span>' : '') +
-        '<span class="pill">' + esc(kinds(a.devices)) + (EXTRA[a.id] ? ' · Windows' : '') + '</span></div>' +
+        '<span class="pill">' + esc(kinds(a.devices)) + ((EXTRA[a.id] || (v && v.windows)) ? ' · Windows' : '') + '</span></div>' +
         (v && v.notes ? '<p class="notes clamp">' + esc(v.notes) + '</p>' : '') +
         '<div class="spacer"></div>' +
-        '<span class="btn ghost">Подробнее и скачать</span>' +
+        '<span class="btn ghost">' + (a.projectUrl ? 'Подробнее' : 'Подробнее и скачать') + '</span>' +
         '</a>';
     });
     h += '</div>';
@@ -149,11 +152,12 @@
     var b = v && v.builds[0];
     var h = '<a class="back" href="#/">← Все приложения</a>' +
       '<div class="detail-head">' + tile(a, true) + '<div><h1>' + esc(a.name) + '<span class="dot">.</span></h1>' +
-      '<div class="pills"><span class="pill">' + esc(kinds(a.devices)) + (EXTRA[a.id] ? ' · Windows' : '') + '</span>' +
+      '<div class="pills"><span class="pill">' + esc(kinds(a.devices)) + ((EXTRA[a.id] || (v && v.windows)) ? ' · Windows' : '') + '</span>' +
       (v ? '<span class="pill">Версия ' + esc(v.name) + ' · ' + esc(fmtDate(v.date)) + '</span>' : '') + '</div></div></div>' +
       '<div class="cols"><div>' +
       '<section class="card"><p style="margin:0 0 16px;color:var(--text3)">' + esc(ABOUT[a.id] || a.description || a.tagline) + '</p>' +
-      downloads(a, v, { qr: true }) + '</section>';
+      (a.projectUrl ? '<a class="btn ghost" href="' + esc(a.projectUrl) + '">Проект на GitVerse</a>' :
+        downloads(a, v, { qr: true })) + '</section>';
     if (v && v.notes) {
       h += '<div class="label">Что нового в ' + esc(v.name) + '</div><section class="card"><p class="notes">' + esc(v.notes) + '</p></section>';
     }
@@ -259,6 +263,13 @@
       .catch(function (e) { if (urls.length > 1) return getCatalog(urls.slice(1)); throw e; });
   }
   getCatalog(['catalog.json', '/ab-store/catalog.json'])
+    .then(function (c) {
+      if (location.hostname !== 'localhost' && location.hostname !== '127.0.0.1') return c;
+      return getCatalog(['/pc-monitor.json']).then(function (monitor) {
+        if (monitor.id === 'pc-monitor') c.apps.push(monitor);
+        return c;
+      }).catch(function () { return c; });
+    })
     .then(function (c) {
       catalog = c;
       document.getElementById('updated').textContent = c.updated ? 'Каталог обновлён ' + fmtDate(c.updated) : '';
