@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-11-24T12:24:28Z",
+  "updated": "2026-11-25T02:56:33Z",
   "apps": [
     {
       "id": "ru.abvpn.app",
@@ -581,6 +581,33 @@
         "tablet"
       ],
       "versions": [
+        {
+          "code": 102,
+          "name": "1.0.2",
+          "date": "2026-11-25",
+          "minSdk": 26,
+          "notes": "На ПК можно показать QR-код, на телефоне Monit сканирует его и автоматически подключается к показаниям. Ручной ввод ссылки сохранён.",
+          "builds": [
+            {
+              "devices": [
+                "phone",
+                "tablet"
+              ],
+              "abis": [],
+              "url": "https://github.com/allexbelieveme/ab-store/releases/download/ru.ab.monit-102/Monit-1.0.2.apk",
+              "size": 1959133,
+              "sha256": "42596bdbafd2dd60afbd7e6aec7e6db0d2cbfb6d18cda90a0e7b9b6bfd2b5480",
+              "mirrors": [
+                "https://gitverse.ru/alexbelieveme/ab-store/releases/download/ru.ab.monit-102/Monit-1.0.2.apk"
+              ]
+            }
+          ],
+          "windows": {
+            "url": "https://github.com/allexbelieveme/ab-store/releases/download/ru.ab.monit-102/Monit.exe",
+            "size": 585216,
+            "sha256": "994598e850d49d3c9597f0a9472b42a011f8f10dfc98d48cf40ba9fb5c07a42f"
+          }
+        },
         {
           "code": 101,
           "name": "1.0.1",
