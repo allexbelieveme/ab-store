@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-11-25T04:36:51Z",
+  "updated": "2026-11-25T04:46:08Z",
   "apps": [
     {
       "id": "ru.abvpn.app",
@@ -581,6 +581,33 @@
         "tablet"
       ],
       "versions": [
+        {
+          "code": 106,
+          "name": "1.0.6",
+          "date": "2026-11-25",
+          "minSdk": 26,
+          "notes": "Кнопка «Обновить статус» больше не мигает при автоматическом обновлении показаний на Android и Windows.",
+          "builds": [
+            {
+              "devices": [
+                "phone",
+                "tablet"
+              ],
+              "abis": [],
+              "url": "https://github.com/allexbelieveme/ab-store/releases/download/ru.ab.monit-106/Monit-1.0.6.apk",
+              "size": 2364815,
+              "sha256": "51bcaf7e60386a0ae3e21b98421f80e03173203106a0d596196ca71bf82d6c8b",
+              "mirrors": [
+                "https://gitverse.ru/alexbelieveme/ab-store/releases/download/ru.ab.monit-106/Monit-1.0.6.apk"
+              ]
+            }
+          ],
+          "windows": {
+            "url": "https://github.com/allexbelieveme/ab-store/releases/download/ru.ab.monit-106/Monit.exe",
+            "size": 1450496,
+            "sha256": "4b4e8d1cf97d4ee24acd9e2db2df314a7bcd3fa324f8c7f157c2157a330c4759"
+          }
+        },
         {
           "code": 105,
           "name": "1.0.5",
