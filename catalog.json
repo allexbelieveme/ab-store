@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-11-25T03:23:12Z",
+  "updated": "2026-11-25T04:36:51Z",
   "apps": [
     {
       "id": "ru.abvpn.app",
@@ -581,6 +581,30 @@
         "tablet"
       ],
       "versions": [
+        {
+          "code": 105,
+          "name": "1.0.5",
+          "date": "2026-11-25",
+          "minSdk": 26,
+          "notes": "Частые замеры и текущая загрузка CPU по процессам. Android автоматически переключается между домашней сетью и интернетом.",
+          "builds": [
+            {
+              "devices": [
+                "phone",
+                "tablet"
+              ],
+              "abis": [],
+              "url": "https://github.com/allexbelieveme/ab-store/releases/download/ru.ab.monit-105/Monit-1.0.5.apk",
+              "size": 2364815,
+              "sha256": "aea07c65318d0af094ac81054c3a814cdc5d1a0d277bac99e60d460c279f5c6e"
+            }
+          ],
+          "windows": {
+            "url": "https://github.com/allexbelieveme/ab-store/releases/download/ru.ab.monit-105/Monit.exe",
+            "size": 1450496,
+            "sha256": "a588948142a0b1e122f8c35264fe9ba42d5b70eddf74e3a0f2779d2a6f040493"
+          }
+        },
         {
           "code": 104,
           "name": "1.0.4",
