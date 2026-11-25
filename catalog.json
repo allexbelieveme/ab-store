@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-11-25T02:56:33Z",
+  "updated": "2026-11-25T03:12:46Z",
   "apps": [
     {
       "id": "ru.abvpn.app",
@@ -581,6 +581,30 @@
         "tablet"
       ],
       "versions": [
+        {
+          "code": 103,
+          "name": "1.0.3",
+          "date": "2026-11-25",
+          "minSdk": 26,
+          "notes": "Сон, перезагрузка и выключение с подтверждением паролем питания. Кнопка пробуждения открывает действующего VK-бота. Сводка показателей и виджет сохранены.",
+          "builds": [
+            {
+              "devices": [
+                "phone",
+                "tablet"
+              ],
+              "abis": [],
+              "url": "https://github.com/allexbelieveme/ab-store/releases/download/ru.ab.monit-103/Monit-1.0.3.apk",
+              "size": 1963229,
+              "sha256": "cfb9b119620e3e3077d90d4207779c609b491ef8748d547137fc2dc753e02fac"
+            }
+          ],
+          "windows": {
+            "url": "https://github.com/allexbelieveme/ab-store/releases/download/ru.ab.monit-103/Monit.exe",
+            "size": 597504,
+            "sha256": "7f496e4639ea4a6b9f935726269832c1dc4121e64acd422657e172fe63cdb590"
+          }
+        },
         {
           "code": 102,
           "name": "1.0.2",
