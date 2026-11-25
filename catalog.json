@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-11-25T03:12:46Z",
+  "updated": "2026-11-25T03:23:12Z",
   "apps": [
     {
       "id": "ru.abvpn.app",
@@ -581,6 +581,30 @@
         "tablet"
       ],
       "versions": [
+        {
+          "code": 104,
+          "name": "1.0.4",
+          "date": "2026-11-25",
+          "minSdk": 26,
+          "notes": "Оформление в стиле ab. для Android и Windows: Inter, тёмные скруглённые кнопки с белыми подписями и косой штрих над i в логотипе. Обновлён виджет Android.",
+          "builds": [
+            {
+              "devices": [
+                "phone",
+                "tablet"
+              ],
+              "abis": [],
+              "url": "https://github.com/allexbelieveme/ab-store/releases/download/ru.ab.monit-104/Monit-1.0.4.apk",
+              "size": 2364815,
+              "sha256": "1ce9b9ff6f4e553538e5f68deafc077082d042b159a93957515b94822bb174a7"
+            }
+          ],
+          "windows": {
+            "url": "https://github.com/allexbelieveme/ab-store/releases/download/ru.ab.monit-104/Monit.exe",
+            "size": 1438720,
+            "sha256": "47a28c4dc85fc96ca767adc99ae605884a517388b473f2233ed260c1c6b9d2b8"
+          }
+        },
         {
           "code": 103,
           "name": "1.0.3",
